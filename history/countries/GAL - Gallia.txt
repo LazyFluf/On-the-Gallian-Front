@@ -89,15 +89,7 @@ set_popularities = {
 	neutrality = 80
 }
 
-create_country_leader = {
-	name = "Cordelia Randgriz"
-	desc = ""
-	picture = GFX_portrait_cordelia_randgriz
-	ideology = oligarchism
-	traits = {
-		#
-	}
-}
+recruit_character = GAL_cordelia_randgriz
 
 1939.1.1 = {
 	set_politics = {
@@ -111,15 +103,5 @@ create_country_leader = {
 		fascism = 5
 		communism = 5
 		neutrality = 80
-	}
-}
-
-create_country_leader = {
-	name = "Cordelia Randgriz"
-	desc = ""
-	picture = GFX_portrait_cordelia_randgriz
-	ideology = oligarchism
-	traits = {
-		#
 	}
 }

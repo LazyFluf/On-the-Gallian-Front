@@ -1,0 +1,15 @@
+characters={
+	GAL_cordelia_randgriz={
+		name=GAL_cordelia_randgriz
+		portraits={
+			civilian={
+				large=GFX_portrait_GAL_cordelia_randgriz
+			}
+		}
+		country_leader={
+			ideology=oligarchism
+			expire="1967.1.1.1"
+			id=-1
+		}
+	}
+}
