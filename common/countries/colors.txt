@@ -1,8 +1,20 @@
 #reload countrycolors
 
+IMP = {
+	color = rgb { 180  55  50 }
+	color_ui = rgb { 200  75  70 }
+}
 GAL = {
 	color = rgb { 50  120  190 }
 	color_ui = rgb { 70 140 210 }
+}
+EDN = {
+	color = rgb { 220  200  160 }
+	color_ui = rgb { 240 220 180 }
+}
+FED = {
+	color = rgb { 25 80 160 }
+	color_ui = rgb { 45 100 180 }
 }
 GER = {
 	color = HSV { 0.1 0.15 0.4 }

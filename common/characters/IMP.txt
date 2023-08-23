@@ -1,0 +1,15 @@
+characters={
+	IMP_maximilian_regingrave={
+		name=IMP_maximilian_regingrave
+		portraits={
+			civilian={
+				large=GFX_portrait_IMP_maximilian_regingrave
+			}
+		}
+		country_leader={
+			ideology=gen_nazism
+			expire="1967.1.1.1"
+			id=-1
+		}
+	}
+}

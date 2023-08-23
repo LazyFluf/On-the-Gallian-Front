@@ -1,0 +1,13 @@
+spriteTypes = {
+
+	spriteType = {
+		name = "GFX_portrait_GAL_cordelia_randgriz"
+		texturefile = "gfx/leaders/GAL/portrait_GAL_cordelia_randgriz.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_portrait_IMP_maximilian_regingrave"
+		texturefile = "gfx/leaders/IMP/portrait_IMP_maximilian_regingrave.dds"
+	}
+	
+}
