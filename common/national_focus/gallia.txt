@@ -213,7 +213,7 @@
 		available_if_capitulated = no
 		
 		completion_reward = {
-			add_political_power = 100
+			add_ideas = GAL_increased_funding
 		}
 		ai_will_do = {
 			factor = 1

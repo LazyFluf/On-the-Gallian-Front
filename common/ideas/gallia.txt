@@ -1,0 +1,30 @@
+ideas = {
+
+	hidden_ideas = {
+		GAL_increased_funding = {
+			picture = ETH_customs_barrier_ITA
+			
+			allowed = {
+				tag = GAL
+			}
+			
+			available = {
+			}
+
+			cancel = {
+			}
+			
+			allowed_civil_war = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_efficiency_gain_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_factory_start_efficiency_factor = 0.1
+			}
+		}
+	}
+}
