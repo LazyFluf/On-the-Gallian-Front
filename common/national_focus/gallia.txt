@@ -1,0 +1,222 @@
+﻿focus_tree = {
+	id = gallian_focus
+	
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GAL
+		}
+	}
+	default = no
+	
+	continuous_focus_position = { x = 50 y = 1000 }
+
+	focus = {
+		id = GAL_increase_army_size
+		icon = GFX_focus_generic_little_entente
+		x = 5
+		y = 2
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		
+		available = {
+			NOT = { is_in_faction_with = IMP } 
+			}
+		bypass = {
+		}
+		
+		cost = 10
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+  ### MILITARY TREE ###
+	focus = {
+		id = GAL_modernize_armor
+		icon = GFX_focus_generic_tank_production
+		x = -2
+		y = 1
+		relative_position_id = GAL_increase_army_size
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		
+		available = {
+			NOT = { is_in_faction_with = IMP } 
+			}
+		bypass = {
+		}
+		
+		cost = 10
+		prerequisite = { focus = GAL_increase_army_size }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		focus = {
+		id = GAL_new_infantry_tech
+		icon = GFX_focus_generic_combined_arms
+		x = 0
+		y = 1
+		relative_position_id = GAL_modernize_armor
+		search_filters = {FOCUS_FILTER_RESEARCH}
+		
+		available = {
+			NOT = { is_in_faction_with = IMP } 
+			}
+		bypass = {
+		}
+		
+		cost = 10
+		prerequisite = { focus = GAL_modernize_armor }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		focus = {
+		id = GAL_IMP_forts
+		icon = GFX_goal_generic_fortify_city
+		x = 2
+		y = 1
+		relative_position_id = GAL_new_infantry_tech
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		available = {
+			NOT = { is_in_faction_with = IMP } 
+			}
+		bypass = {
+		}
+		
+		cost = 10
+		prerequisite = { focus = GAL_new_infantry_tech }
+		mutually_exclusive = { focus = GAL_FED_forts }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+		focus = {
+		id = GAL_FED_forts
+		icon = GFX_goal_generic_fortify_city
+		x = -2
+		y = 1
+		relative_position_id = GAL_new_infantry_tech
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		available = {
+			NOT = { is_in_faction_with = FED } 
+			}
+		bypass = {
+		}
+		
+		cost = 10
+		prerequisite = { focus = GAL_new_infantry_tech }
+		mutually_exclusive = { focus = GAL_IMP_forts }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	### INDUSTRY TREE ###
+	focus = {
+		id = GAL_more_factory
+		icon = GFX_focus_generic_industry_1
+		x = 2
+		y = 1
+		relative_position_id = GAL_increase_army_size
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		available = {
+			NOT = { is_in_faction_with = IMP } 
+			}
+		bypass = {
+		}
+		
+		cost = 10
+		prerequisite = { focus = GAL_increase_army_size }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	focus = {
+		id = GAL_increase_GNA_funding
+		icon = GFX_focus_mex_privatisation
+		x = 0
+		y = 1
+		relative_position_id = GAL_more_factory
+		search_filters = {FOCUS_FILTER_INDUSTRY}
+		
+		available = {
+			NOT = { is_in_faction_with = IMP } 
+			}
+		bypass = {
+		}
+		
+		cost = 10
+		prerequisite = { focus = GAL_more_factory }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+}
