@@ -1,0 +1,8 @@
+spriteTypes = {
+
+	### GAL tanks ###
+	
+	SpriteType = {
+		name = "GFX_GAL_gwtank_medium"
+		texturefile = "gfx/interface/technologies/GAL_basic_light_tank.dds"
+	}
