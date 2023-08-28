@@ -1,0 +1,11 @@
+﻿l_english:
+
+ ### tanks
+ 
+ GAL_light_tank_equipment_3:0 "Type 36 L-B"
+ GAL_light_tank_equipment_3_short:0 "Type 36 L-B"
+ #GAL_light_tank_equipment_3_desc:0 "PLACEHOLDER"
+ 
+ GAL_medium_tank_equipment_1:0 "Type 36 M-A"
+ GAL_medium_tank_equipment_1_short:0 "Type 36 M-A"
+ #GAL_medium_tank_equipment_1_desc:0 "PLACEHOLDER"

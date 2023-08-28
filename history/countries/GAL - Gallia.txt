@@ -83,4 +83,6 @@ recruit_character = GAL_cordelia_randgriz
 		communism = 5
 		neutrality = 80
 	}
+	
+	recruit_character = GAL_cordelia_randgriz
 }

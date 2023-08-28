@@ -2,7 +2,22 @@ spriteTypes = {
 
 	### GAL tanks ###
 	
-	SpriteType = {
-		name = "GFX_GAL_gwtank_medium"
-		texturefile = "gfx/interface/technologies/GAL_basic_light_tank.dds"
+	spriteType = {
+		name = "GFX_GAL_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/GAL_improved_light_tank.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_GAL_improved_light_td_medium"
+		texturefile = "gfx/interface/technologies/GAL_improved_light_td.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GAL_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/GAL_advanced_light_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_GAL_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/GAL_basic_medium_tank.dds"
 	}
