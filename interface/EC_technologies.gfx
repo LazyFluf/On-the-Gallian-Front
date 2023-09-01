@@ -21,3 +21,15 @@ spriteTypes = {
 		name = "GFX_GAL_basic_medium_tank_medium"
 		texturefile = "gfx/interface/technologies/GAL_basic_medium_tank.dds"
 	}
+	
+	### IMP tanks ###
+	
+	spriteType = {
+		name = "GFX_IMP_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/IMP_basic_medium_tank.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_IMP_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/IMP_basic_light_tank.dds"
+	}
