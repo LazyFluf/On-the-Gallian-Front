@@ -19,3 +19,13 @@
  #IMP_light_tank_equipment_1:0 "PLACEHOLDER"
  #IMP_light_tank_equipment_1_short:0 "PLACEHOLDER"
  #IMP_light_tank_equipment_1_desc:0 "PLACEHOLDER"
+ 
+ ### FED tanks ###
+ 
+ #FED_medium_tank_destroyer_equipment_1:0 "PLACEHOLDER"
+ #FED_medium_tank_destroyer_equipment_1_short:0 "PLACEHOLDER"
+ #FED_medium_tank_destroyer_equipment_1_desc:0 "PLACEHOLDER"
+ 
+ #FED_heavy_tank_equipment_1:0 "PLACEHOLDER"
+ #FED_heavy_tank_equipment_1_short:0 "PLACEHOLDER"
+ #FED_heavy_tank_equipment_1_desc:0 "PLACEHOLDER"
