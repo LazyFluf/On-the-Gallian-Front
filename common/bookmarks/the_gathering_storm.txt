@@ -23,14 +23,6 @@ bookmarks = {
 			focuses = {
 			}
 		}
-		"EDN"={
-			history = "EDN_GATHERING_STORM_DESC"
-			ideology = democratic
-			ideas = {
-			}
-			focuses = {
-			}
-		}
 		"FED"={
 			history = "FED_GATHERING_STORM_DESC"
 			ideology = democratic

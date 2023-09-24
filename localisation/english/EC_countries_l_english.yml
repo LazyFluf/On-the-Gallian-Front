@@ -33,23 +33,6 @@
  IMP_DEF:0 "the East Europan nations"
  IMP_ADJ:0 "East Europan"
  
- #EDINBURGH
- EDN_fascism:0 "Embran Empire"
- EDN_fascism_DEF:0 "the Embran Empire"
- EDN_democratic:0 "United Kingdom of Edinburgh"
- EDN_democratic_DEF:0 "the United Kingdom of Edinburgh"
- EDN_neutrality:0 "Great Edinburgh"
- EDN_neutrality_DEF:0 "Great Edinburgh"
- EDN_communism:0 "Union of Edinburgh"
- EDN_communism_DEF:0 "the Union of Edinburgh"
- EDN_fascism_ADJ:0 "Embran"
- EDN_democratic_ADJ:0 "Embran"
- EDN_neutrality_ADJ:0 "Embran"
- EDN_communism_ADJ:0 "Embran"
- EDN:0 "Edinburgh"
- EDN_DEF:0 "Edinburgh"
- EDN_ADJ:0 "Embran"
- 
  #FEDERATION
  FED_fascism:2 "Nation Française"
  FED_fascism_DEF:2 "Nation Française"

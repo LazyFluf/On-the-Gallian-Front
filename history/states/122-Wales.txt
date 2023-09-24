@@ -12,7 +12,7 @@ state= {
 
 	history=
 	{
-		owner = EDN
+		owner = FED
 		victory_points = {
 			407 3 #Swansea
 		}
@@ -27,7 +27,7 @@ state= {
 				naval_base = 3
 			}
 		}
-		add_core_of = EDN
+		add_core_of = FED
 		add_core_of = WLS
 	}
 

@@ -12,7 +12,7 @@ state={
 
 	history={
 		add_core_of = SCO
-		owner = EDN
+		owner = FED
 		victory_points = {
 			3273 15
 		}
@@ -30,7 +30,7 @@ state={
 			}
 
 		}
-		add_core_of = EDN
+		add_core_of = FED
 		1939.1.1 = {
 			buildings = {
 				dockyard = 5

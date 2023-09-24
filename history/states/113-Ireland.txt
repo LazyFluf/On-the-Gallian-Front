@@ -11,7 +11,7 @@ state={
 	state_category = city
 	
 	history={
-		owner = EDN
+		owner = FED
 		victory_points = {
 			285 1 #Wexford
 		}
@@ -30,7 +30,7 @@ state={
 				naval_base = 6
 			}
 		}
-		add_core_of = EDN
+		add_core_of = FED
 	}
 
 	provinces={

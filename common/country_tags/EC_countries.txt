@@ -1,4 +1,3 @@
 GAL = "countries/Gallia.txt"
 IMP = "countries/Empire.txt"
-EDN = "countries/Edinburgh.txt"
 FED = "countries/Federation.txt"

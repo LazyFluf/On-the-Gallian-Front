@@ -10,7 +10,7 @@ state={
 	state_category = city
 
 	history={
-		owner = EDN
+		owner = FED
 		victory_points = {
 			3369 5 
 		}
@@ -23,7 +23,7 @@ state={
 				naval_base = 2
 			}
 		}
-		add_core_of = EDN
+		add_core_of = FED
 	}
 
 	provinces={
