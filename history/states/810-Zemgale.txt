@@ -1,16 +1,10 @@
 
 state={
 	id=810
-	name="STATE_810"
+	name="STATE_810" #Kloden
 
 	history={
 		owner = GAL
-		victory_points = {
-			6222 3 #Jelgava
-		}
-		victory_points = {
-			3255 1 #Jekabpils
-		}
 		buildings = {
 			infrastructure = 2
 			arms_factory = 1
@@ -29,7 +23,7 @@ state={
 	provinces={
 		222 310 319 341 3298 6459 7482 9275 11222 
 	}
-	manpower=600250
+	manpower=400250
 	buildings_max_level_factor=1.000
 	state_category=town
 }

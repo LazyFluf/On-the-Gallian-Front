@@ -1,4 +1,5 @@
-﻿division_template = {
+﻿### Infantry Divisions ###
+division_template = {
 	name = "Army Infantry Division"			# Infantry Division
 	division_names_group = LIT_INF_01
 	regiments = {
@@ -16,6 +17,17 @@
 	support = {
 		artillery = { x = 0 y = 0 }
 		anti_tank = { x = 0 y = 1 }
+		engineer = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Army Tank Division"			# Tank Destroyer Division
+	division_names_group = LIT_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
 		engineer = { x = 0 y = 2 }
 	}
 }

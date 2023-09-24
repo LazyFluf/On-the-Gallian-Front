@@ -1,16 +1,10 @@
 
 state={
 	id=191
-	name="STATE_191"
+	name="STATE_191" #Naggiar
 
 	history={
 		owner = GAL
-		victory_points = {
-			9221 1 
-		}
-		victory_points = {
-			592 1 #Voru
-		}
 		buildings = {
 			infrastructure = 3 #was: 5
 
@@ -22,7 +16,7 @@ state={
 	provinces={
 		592 6178 6408 9221 9485 
 	}
-	manpower=225840
+	manpower=625840
 	buildings_max_level_factor=1.000
 	local_supplies=0.0 
 	state_category=rural

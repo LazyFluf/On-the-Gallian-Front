@@ -2,14 +2,14 @@
 state={
 	id=209
 	name="STATE_209" # Pskov
-	manpower = 639587
+	manpower = 439587
 	
 	state_category = town
 
 	history={
 		owner = GAL
 		victory_points = {
-			11202 3
+			3053 5 #Bruhl
 		}
 		buildings = {
 			infrastructure = 3 #was: 6
