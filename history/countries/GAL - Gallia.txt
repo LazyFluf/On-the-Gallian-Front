@@ -45,6 +45,10 @@ set_popularities = {
 	neutrality = 80
 }
 
+add_ideas = {
+	limited_conscription
+}
+
 recruit_character = GAL_cordelia_randgriz
 
 1939.1.1 = {
