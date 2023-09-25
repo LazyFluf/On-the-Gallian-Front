@@ -1,3 +1,0 @@
-GAL = "countries/Gallia.txt"
-IMP = "countries/Empire.txt"
-FED = "countries/Federation.txt"
