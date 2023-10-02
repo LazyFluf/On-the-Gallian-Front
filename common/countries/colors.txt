@@ -1,0 +1,18 @@
+#reload countrycolors
+
+IMP = {
+	color = rgb { 180  55  50 }
+	color_ui = rgb { 200  75  70 }
+}
+GAL = {
+	color = rgb { 50  120  190 }
+	color_ui = rgb { 70 140 210 }
+}
+FED = {
+	color = rgb { 25 80 160 }
+	color_ui = rgb { 45 100 180 }
+}
+UNC = {
+	color = rgb { 33  43  64 }
+	color_ui = rgb { 43  63  84 }
+}

@@ -1,0 +1,4 @@
+GAL = "countries/Gallia.txt"
+IMP = "countries/Empire.txt"
+FED = "countries/Federation.txt"
+UNC = "countries/UncolonizedTerritories.txt"
