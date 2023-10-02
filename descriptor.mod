@@ -9,4 +9,8 @@ tags={
 	"Ideologies"
 }
 name="The Europan Chronicles"
+replace_path="history/countries"
+replace_path="history/states"
+replace_path="history/units"
+replace_path="history/general"
 supported_version="1.12.14"
