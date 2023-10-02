@@ -1,0 +1,23 @@
+state=
+{
+	id=337
+	name="STATE_337"
+	manpower = 25900
+	
+	state_category = small_island
+	
+	history=
+	{
+		owner = UNC
+		buildings = {
+			infrastructure = 2
+			13003 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = UNC
+	}
+	provinces= { 13003 }
+
+	local_supplies=0.0 
+}
