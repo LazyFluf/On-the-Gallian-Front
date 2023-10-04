@@ -11,6 +11,12 @@ state={
 		victory_points = {
 			11080 30 #Ghirlandio
 		}
+		victory_points = {
+			11186 5 #Hafen
+		}
+		victory_points = {
+			3053 5 #Bruhl
+		}
 		buildings = {
 			infrastructure = 3 #was: 5
 			air_base = 3
@@ -22,7 +28,7 @@ state={
 	}
 
 	provinces={
-		104 126 181 3120 6139 6197 9097 9098 11032 11080 11139 11186 
+		104 126 181 3120 6139 6197 9097 9098 11032 11080 11139 11186 3053 9120
 	}
 
 	local_supplies=0.0 
