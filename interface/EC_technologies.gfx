@@ -45,3 +45,4 @@ spriteTypes = {
 		name = "GFX_FED_basic_heavy_tank_medium"
 		texturefile = "gfx/interface/technologies/FED_basic_heavy_tank.dds"
 	}
+}

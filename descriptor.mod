@@ -8,9 +8,5 @@ tags={
 	"Gameplay"
 	"Ideologies"
 }
-name="The Europan Chronicles"
-replace_path="history/countries"
-replace_path="history/states"
-replace_path="history/units"
-replace_path="history/general"
+name="Europa Burns"
 supported_version="1.12.14"

@@ -1,0 +1,145 @@
+enums = {
+	enum[dlc] = {
+		"Poland: United and Ready"
+		"Together for Victory"
+		"Death or Dishonor"
+		"Waking the Tiger"
+		"Man the Guns"
+		"La Resistance"
+		"Battle for the Bosporus"
+		"No Step Back"
+		"By Blood Alone"
+	}
+
+	enum[hours_days_months] = {
+		hours
+		days
+		months
+	}
+
+	enum[tech_bonus] = {
+		bonus
+		ahead_reduction
+	}
+
+	enum[diplomatic_relations] = {
+		non_aggression_pact
+		guarantee
+		puppet
+		military_access
+		docking_rights
+		declare_war
+		join_allies
+		call_allies
+		improve_relation
+		befriend
+	}
+
+	enum[add_factor] = {
+		add
+		factor
+	}
+
+	enum[base_factor] = {
+		base
+		factor
+	}
+
+	enum[naval_missions] = {
+		"MISSION_TRAINING"
+		"MISSION_PATROL"
+		"MISSION_STRIKE_FORCE"
+		"MISSION_CONVOY_ESCORT"
+		"MISSION_CONVOY_RAIDING"
+		"MISSION_MINES_PLANTING"
+		"MISSION_MINES_SWEEPING"
+	}
+
+	enum[equipment_categories] = {
+		naval
+		land
+		air
+	}
+
+	enum[experience_types] = {
+		army
+		navy
+		air
+	}
+	
+	enum[command_cap] = {
+		@tier1
+		@tier2
+		@tier3
+	}
+
+	enum[nsb_armor_archetypes] = {
+		light_tank_chassis
+		medium_tank_chassis
+		heavy_tank_chassis
+		super_heavy_tank_chassis
+		modern_tank_chassis
+		amphibious_tank_chassis
+		light_tank_artillery_chassis
+		light_tank_destroyer_chassis
+		light_tank_aa_chassis
+		light_tank_amphibious_chassis
+		light_tank_flame_chassis
+		medium_tank_artillery_chassis
+		medium_tank_destroyer_chassis
+		medium_tank_aa_chassis
+		medium_tank_amphibious_chassis
+		medium_tank_flame_chassis
+		heavy_tank_artillery_chassis
+		heavy_tank_destroyer_chassis
+		heavy_tank_aa_chassis
+		heavy_tank_amphibious_chassis
+		heavy_tank_flame_chassis
+		super_heavy_tank_artillery_chassis
+		super_heavy_tank_destroyer_chassis
+		super_heavy_tank_aa_chassis
+		modern_tank_artillery_chassis
+		modern_tank_destroyer_chassis
+		modern_tank_aa_chassis
+	}
+
+	enum[bba_air_equipment] = {
+		fighter_equipment
+		cv_fighter_equipment
+		jet_fighter_equipment
+		cv_CAS_equipment
+		CAS_equipment
+		nav_bomber_equipment
+		cv_nav_bomber_equipment
+		rocket_interceptor_equipment
+		tac_bomber_equipment
+		jet_tac_bomber_equipment
+		heavy_fighter_equipment
+		strat_bomber_equipment
+		jet_strat_bomber_equipment
+		transport_plane_equipment
+		guided_missile_equipment
+		scout_plane_equipment
+		small_plane_airframe
+		cv_small_plane_airframe
+		small_plane_cas_airframe
+		cv_small_plane_cas_airframe
+		small_plane_naval_bomber_airframe
+		cv_small_plane_naval_bomber_airframe
+		medium_plane_airframe
+		medium_plane_fighter_airframe
+		medium_plane_scout_plane_airframe
+		large_plane_airframe
+		large_plane_maritime_patrol_plane_airframe
+	}
+
+	enum[allowed_advisor_role] = {
+		political_advisor
+		theorist
+		army_chief
+		navy_chief
+		air_chief
+		high_command
+		second_in_command
+	}
+}

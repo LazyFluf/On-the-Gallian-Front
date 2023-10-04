@@ -13,19 +13,18 @@ focus_tree = {
 	continuous_focus_position = { x = 50 y = 1000 }
 
 	focus = {
-		id = GAL_increase_army_size
+		id = IMP_imperial_ambitions
 		icon = GFX_focus_generic_little_entente
-		x = 5
-		y = 2
+		x = 7
+		y = 0
 		search_filters = {FOCUS_FILTER_MANPOWER}
 		
 		available = {
-			NOT = { is_in_faction_with = IMP } 
 			}
 		bypass = {
 		}
 		
-		cost = 10
+		cost = 4.4
 
 
 		cancel_if_invalid = yes
