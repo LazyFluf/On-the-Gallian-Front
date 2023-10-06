@@ -9,7 +9,7 @@ state={
 	history={
 		owner = GAL
 		victory_points = {
-			9340 5 
+			9340 5 #Teyall
 		}
 		buildings = {
 			infrastructure = 3 #was: 5

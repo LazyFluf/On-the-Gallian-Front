@@ -30,7 +30,7 @@ spriteTypes = {
 	}
 	
 	spriteType = {
-		name = "GFX_IMP_basic_light_tank_medium"
+		name = "GFX_IMP_improved_light_tank_medium"
 		texturefile = "gfx/interface/technologies/IMP_basic_light_tank.dds"
 	}
 	
