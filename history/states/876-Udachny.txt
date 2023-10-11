@@ -3,15 +3,18 @@ state = {
 	name = "STATE_876" #Udachny
 
 	history = {
-		owner = IMP
-		victory_points = {
-			6085 1 
-		}
+		owner = UNC
+
+		#victory_points = {
+		#	6085 1  #Udachny was founded in 1955
+		#}
+
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = IMP
-		add_core_of = YAK
+
+		add_core_of = UNC
+		add_core_of = UNC
 
 	}
 

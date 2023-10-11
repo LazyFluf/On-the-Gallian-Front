@@ -5,4 +5,6 @@ GAL_increase_army_size_desc:0 "The looming threat the Empire poses can no longer
 
  #Imperial Focus Tree
 IMP_imperial_ambitions:0 "Imperial Ambitions"
-IMP_imperial_ambitions_desc:0 "The erroneously named Great Europan War "ended" in a cease fire 17 years ago, with no clear winner.  It's time we shed that legacy of shame, and end this war once and for all.  It will take a great deal of time and effort, but if we play our cards right, we'll be ready to unite all of Europa under the dual-headed eagle of the Empire!"
+IMP_imperial_ambitions_desc:0 "The erroneously named Great Europan War "ended" in a cease fire 17 years ago, with no clear winner.  It's time we shed that legacy of shame, and end this period of instability once and for all.  It will take a great deal of time and effort, but if we play our cards right, we'll be ready to unite all of Europa under the dual-headed eagle of the Empire!"
+IMP_integrate_subjects:0 "Complete Integration of Subject Nations"
+IMP_integrate_subjects_desc:0 "Throughout the industrial revolution and the Great Europan War we successfully conquered many nations, bringing them under our rule.  Unfortunately, fully integrating these nations has proven to be slow and difficult.  By instating a series of propaganda campaigns and other less subtle methods we can greatly speed up this process, leaving us better prepared for another large scale war."

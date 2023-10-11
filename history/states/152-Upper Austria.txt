@@ -7,7 +7,7 @@ state={
 	state_category = city
 	
 	resources={
-		steel=5 # was: 8
+		steel=15 # was: 8
 		aluminium=1 # was: 1
 	}
 
@@ -36,7 +36,7 @@ state={
 
 		1938.3.12 = {
 			owner = FED
-			controller = FED
+			controller = GER
 			add_core_of = FED
 		}
 	}

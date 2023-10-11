@@ -15,7 +15,7 @@ focus_tree = {
 	focus = {
 		id = IMP_imperial_ambitions
 		icon = GFX_focus_generic_little_entente
-		x = 7
+		x = 10
 		y = 0
 		search_filters = {FOCUS_FILTER_MANPOWER}
 		
@@ -35,7 +35,36 @@ focus_tree = {
 			add_political_power = 100
 		}
 		ai_will_do = {
-			factor = 1
+			factor = 40
+		}
+	}
+
+	focus = {
+		id = IMP_integrate_subjects
+		icon = GFX_focus_generic_little_entente
+		x = 0
+		y = 1
+		relative_position_id = IMP_imperial_ambitions
+		search_filters = {FOCUS_FILTER_MANPOWER}
+		
+		available = {
+			}
+		bypass = {
+		}
+		
+		cost = 4.4
+		prerequisite = { focus = IMP_imperial_ambitions }
+
+
+		cancel_if_invalid = yes
+		continue_if_invalid = no
+		available_if_capitulated = no
+		
+		completion_reward = {
+			add_political_power = 100
+		}
+		ai_will_do = {
+			factor = 40
 		}
 	}
 }
